@@ -1,5 +1,5 @@
 const friends = require('../data/friends');
-const NewFriend = require('../data/newFriend');
+//const NewFriend = require('../data/newFriend');
 
 module.exports = function(app) {
   app.get('/api/friends', function(req, res){
